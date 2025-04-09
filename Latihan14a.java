@@ -47,7 +47,7 @@ public class Latihan14a {
                 String currentName = (String) tableModel.getValueAt(selectedRow, 0);
                 String currentPrice = (String) tableModel.getValueAt(selectedRow, 1);
 
-                // Menampilkan dialog untuk mengedit nama dan harga
+                // Menampilkan dialog untuk mengedit nama dan harga dengan nilai saat ini
                 String newName = JOptionPane.showInputDialog(frame, "Edit Nama Produk:", currentName);
                 String newPrice = JOptionPane.showInputDialog(frame, "Edit Harga Produk:", currentPrice);
 
